@@ -1,11 +1,16 @@
-# Awesome-Self-Attention
-## Self-Attention: Evolution, Variants, Types, & Applications
+# 🧠 Awesome Self-Attention 🚀
+
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Self-Attention Banner" width="100%">
+</p>
+
+## 🔬 Self-Attention: Evolution, Variants, Types, & Applications
 
 Self-Attention—formally conceptualized as Scaled Dot-Product Attention—is the core mathematical mechanism driving the Transformer architecture. Unlike prior recurrent or convolutional networks that process sequential data step-by-step or within localized sliding windows, Self-Attention allows every single token in a sequence to look at, calculate an allocation weight for, and aggregate contextual parameters from every other token *simultaneously and in parallel*. By projecting input embeddings into dynamically computed Query ($Q$), Key ($K$), and Value ($V$) spaces, Self-Attention maps long-range semantic dependencies with a constant path length of $O(1)$, serving as the baseline cognitive engine for modern Large Language Models (LLMs) and multi-modal foundation AI.
 
 ---
 
-## 1. The Chronological Evolution
+## 📅 1. The Chronological Evolution
 
 The technical progression of cross-token alignment has transitioned from sequential recurrence baselines to full quadratic matrices, memory-pinned group query structures, and low-rank latent cache compressions.
 
@@ -26,7 +31,7 @@ flowchart LR
 
 ---
 
-## 2. Core Functional & Structural Variants
+## 🧩 2. Core Functional & Structural Variants
 
 Self-attention blocks are strictly categorized based on how token visibility masks are enforced and how the projection dimensions partition information.
 
@@ -39,7 +44,7 @@ Self-attention blocks are strictly categorized based on how token visibility mas
 
 ---
 
-## 3. Algorithmic Scale Optimization Types
+## ⚡ 3. Algorithmic Scale Optimization Types
 
 To process ultra-long context windows (e.g., full code repositories or continuous video streams), specialized kernels modify the physical execution of the attention matrix.
 
@@ -51,7 +56,7 @@ To process ultra-long context windows (e.g., full code repositories or continuou
 
 ---
 
-## 4. Production Engineering Challenges & Mitigations
+## 🛠️ 4. Production Engineering Challenges & Mitigations
 
 Deploying full-attention layers across massive enterprise server clusters introduces intense VRAM allocation caps and communication penalties.
 
@@ -62,7 +67,7 @@ Deploying full-attention layers across massive enterprise server clusters introd
 
 ---
 
-## 5. Frontier Real-World AI Applications
+## 🌟 5. Frontier Real-World AI Applications
 
 | Application Field | Year | First Paper | Application Details |
 | :--- | :--- | :--- | :--- |
