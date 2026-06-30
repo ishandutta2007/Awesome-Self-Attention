@@ -86,3 +86,14 @@ Deploying full-attention layers across massive enterprise server clusters introd
 | **[Autoregressive Sequence Modeling for Frontier LLMs](details/autoregressive_sequence_modeling.md)** | 2018 | [Radford et al., 2018](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf) | Serves as the core engine driving foundational base models and post-training reasoning architectures. Causal multi-head self-attention enables deep networks to track complex variables, cross-reference long legal briefs, and map functional code syntaxes flawlessly over thousands of conversational turns. |
 | **[Vision-Transformer Visual Token Patchification (ViTs)](details/vision_transformer_patchification.md)** | 2020 | [Dosovitskiy et al., 2020](https://arxiv.org/abs/2010.11929) | Replaces traditional convolutions across advanced computer vision backbones. Flattened image patches are processed through global self-attention layers, allowing the network to capture global spatial context and complex part-whole layouts natively from layer zero. |
 | **[Spatio-Temporal Video Generative Flow-Matching](details/spatio_temporal_video_generative_flow_matching.md)** | 2024 | [OpenAI, 2024](https://openai.com/research/video-generation-models-as-world-simulators) | Powers high-fidelity physical simulation networks (such as Sora or LTX-Video). Video clips are chunked into 3D spacetime token cubes; the factorized multi-head attention blocks process these cubes concurrently, tracking horizontal, vertical, and chronological frame changes to generate fluid, consistent animations. |
+
+##  Star History
+<div align="center">
+<a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Self-Attention&type=date&legend=bottom-right">
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Self-Attention&type=date&theme=dark&legend=bottom-right" />
+<source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Self-Attention&type=date&legend=bottom-right" />
+<img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Self-Attention&type=date&legend=bottom-right" />
+</picture>
+</a>
+</div>
