@@ -10,7 +10,11 @@ Self-Attention—formally conceptualized as Scaled Dot-Product Attention—is th
 The technical progression of cross-token alignment has transitioned from sequential recurrence baselines to full quadratic matrices, memory-pinned group query structures, and low-rank latent cache compressions.
 
 ```mermaid
-[Additive Alignment (Bahdanau, 2014)] ----> [Scaled Dot-Product (Vaswani, 2017)] ----> [Grouped-Query (GQA, 2023)] ----> [Low-Rank Latent (MLA, 2025+)](Sequential Recurrent Bottlenecks)           (Full N × N Quadratic VRAM Wall)            (Shared Key-Value Head Clusters)          (Deep Cache Matrix Decoupling)
+flowchart LR
+    A["Additive Alignment (Bahdanau, 2014)<br/>(Sequential Recurrent Bottlenecks)"]
+    --> B["Scaled Dot-Product (Vaswani, 2017)<br/>(Full N × N Quadratic VRAM Wall)"]
+    --> C["Grouped-Query (GQA, 2023)<br/>(Shared Key-Value Head Clusters)"]
+    --> D["Low-Rank Latent (MLA, 2025+)<br/>(Deep Cache Matrix Decoupling)"]
 ```
 
 *   **The Sequential Alignment Precursor (Bahdanau Attention, 2014)**
